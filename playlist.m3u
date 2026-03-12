@@ -1,71 +1,141 @@
 #EXTM3U
-#EXTINF:-1, Portal: frt23.mi20.cc
-http://frt23.mi20.cc/stalker_portal/c?mac=00:1A:79:D3:4D:98
-#EXTINF:-1, Portal: tv.banjotv.tv
-http://tv.banjotv.tv/stalker_portal/c?mac=00:1A:79:0F:CA:51
-#EXTINF:-1, Portal: tv.banjotv.tv
-http://tv.banjotv.tv/stalker_portal/c?mac=00:1A:79:A4:99:A9
-#EXTINF:-1, Portal: danatv.tv.streamtv.to:8080
-http://danatv.tv.streamtv.to:8080/c?mac=00:1A:79:AA:66:8D
-#EXTINF:-1, Portal: p1.iptvrocket.tv
-http://p1.iptvrocket.tv/c?mac=00:1A:79:BD:4F:BA
-#EXTINF:-1, Portal: p1.iptvrocket.tv
-http://p1.iptvrocket.tv/c?mac=00:1A:79:5B:BE:27
-#EXTINF:-1, Portal: main2.cwdn.cx
-http://main2.cwdn.cx/c?mac=00:1A:79:C3:10:51
-#EXTINF:-1, Portal: secretservice.cc
-http://secretservice.cc/c?mac=00:1A:79:37:C9:89
-#EXTINF:-1, Portal: xc.tvset.top
-http://xc.tvset.top/c?mac=00:1A:79:0E:85:CA
-#EXTINF:-1, Portal: auth.streamtv.to:8080
-http://auth.streamtv.to:8080/c?mac=00:1A:79:2B:A2:E3
-#EXTINF:-1, Portal: auth.streamtv.to:8080
-http://auth.streamtv.to:8080/c?mac=00:1A:79:5F:DD:0B
-#EXTINF:-1, Portal: auth.streamtv.to:8080
-http://auth.streamtv.to:8080/c?mac=00:1A:79:B5:2C:6A
-#EXTINF:-1, Portal: auth.streamtv.to:8080
-http://auth.streamtv.to:8080/c?mac=00:1A:79:2B:7C:24
-#EXTINF:-1, Portal: auth.streamtv.to:8080
-http://auth.streamtv.to:8080/c?mac=00:1A:79:C8:33:8C
-#EXTINF:-1, Portal: owliptv.streamtv.to:8080
-http://owliptv.streamtv.to:8080/c?mac=00:1A:79:FE:5A:81
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:D2:B9:B8
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:6B:BE:B9
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:0F:46:C4
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:9E:86:C3
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:07:BE:90
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:44:B3:F4
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:6B:BE:BD
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:9D:F0:7E
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:9E:88:81
-#EXTINF:-1, Portal: ix.kingtv.pw
-http://ix.kingtv.pw/c?mac=00:1A:79:A5:C1:11
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:C5:C9:F3
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:3A:1F:07
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:51:19:FD
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:B3:23:62
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:D7:7F:06
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:C8:12:A2
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:32:A5:94
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:BF:DE:E4
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:19:07:72
-#EXTINF:-1, Portal: iptv.darktv.in
-http://iptv.darktv.in/c?mac=00:1A:79:C3:9F:0E
+#EXTINF:-1 tvg-name="frt23.mi20.cc" group-title="MAC Portali", frt23.mi20.cc (MAC: 00:1A:79:D3:4D:98)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:D3:4D:98
+http://frt23.mi20.cc/stalker_portal/c
+#EXTINF:-1 tvg-name="tv.banjotv.tv" group-title="MAC Portali", tv.banjotv.tv (MAC: 00:1A:79:0F:CA:51)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:0F:CA:51
+http://tv.banjotv.tv/stalker_portal/c
+#EXTINF:-1 tvg-name="tv.banjotv.tv" group-title="MAC Portali", tv.banjotv.tv (MAC: 00:1A:79:A4:99:A9)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:A4:99:A9
+http://tv.banjotv.tv/stalker_portal/c
+#EXTINF:-1 tvg-name="danatv.tv.streamtv.to:8080" group-title="MAC Portali", danatv.tv.streamtv.to:8080 (MAC: 00:1A:79:AA:66:8D)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:AA:66:8D
+http://danatv.tv.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="p1.iptvrocket.tv" group-title="MAC Portali", p1.iptvrocket.tv (MAC: 00:1A:79:BD:4F:BA)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:BD:4F:BA
+http://p1.iptvrocket.tv/c
+#EXTINF:-1 tvg-name="p1.iptvrocket.tv" group-title="MAC Portali", p1.iptvrocket.tv (MAC: 00:1A:79:5B:BE:27)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:5B:BE:27
+http://p1.iptvrocket.tv/c
+#EXTINF:-1 tvg-name="main2.cwdn.cx" group-title="MAC Portali", main2.cwdn.cx (MAC: 00:1A:79:C3:10:51)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:C3:10:51
+http://main2.cwdn.cx/c
+#EXTINF:-1 tvg-name="secretservice.cc" group-title="MAC Portali", secretservice.cc (MAC: 00:1A:79:37:C9:89)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:37:C9:89
+http://secretservice.cc/c
+#EXTINF:-1 tvg-name="xc.tvset.top" group-title="MAC Portali", xc.tvset.top (MAC: 00:1A:79:0E:85:CA)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:0E:85:CA
+http://xc.tvset.top/c
+#EXTINF:-1 tvg-name="auth.streamtv.to:8080" group-title="MAC Portali", auth.streamtv.to:8080 (MAC: 00:1A:79:2B:A2:E3)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:2B:A2:E3
+http://auth.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="auth.streamtv.to:8080" group-title="MAC Portali", auth.streamtv.to:8080 (MAC: 00:1A:79:5F:DD:0B)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:5F:DD:0B
+http://auth.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="auth.streamtv.to:8080" group-title="MAC Portali", auth.streamtv.to:8080 (MAC: 00:1A:79:B5:2C:6A)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:B5:2C:6A
+http://auth.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="auth.streamtv.to:8080" group-title="MAC Portali", auth.streamtv.to:8080 (MAC: 00:1A:79:2B:7C:24)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:2B:7C:24
+http://auth.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="auth.streamtv.to:8080" group-title="MAC Portali", auth.streamtv.to:8080 (MAC: 00:1A:79:C8:33:8C)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:C8:33:8C
+http://auth.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="owliptv.streamtv.to:8080" group-title="MAC Portali", owliptv.streamtv.to:8080 (MAC: 00:1A:79:FE:5A:81)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:FE:5A:81
+http://owliptv.streamtv.to:8080/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:D2:B9:B8)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:D2:B9:B8
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:6B:BE:B9)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:6B:BE:B9
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:0F:46:C4)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:0F:46:C4
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:9E:86:C3)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:9E:86:C3
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:07:BE:90)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:07:BE:90
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:44:B3:F4)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:44:B3:F4
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:6B:BE:BD)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:6B:BE:BD
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:9D:F0:7E)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:9D:F0:7E
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:9E:88:81)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:9E:88:81
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="ix.kingtv.pw" group-title="MAC Portali", ix.kingtv.pw (MAC: 00:1A:79:A5:C1:11)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:A5:C1:11
+http://ix.kingtv.pw/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:C5:C9:F3)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:C5:C9:F3
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:3A:1F:07)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:3A:1F:07
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:51:19:FD)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:51:19:FD
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:B3:23:62)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:B3:23:62
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:D7:7F:06)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:D7:7F:06
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:C8:12:A2)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:C8:12:A2
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:32:A5:94)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:32:A5:94
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:BF:DE:E4)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:BF:DE:E4
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:19:07:72)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:19:07:72
+http://iptv.darktv.in/c
+#EXTINF:-1 tvg-name="iptv.darktv.in" group-title="MAC Portali", iptv.darktv.in (MAC: 00:1A:79:C3:9F:0E)
+#EXTMYTP:type=stalker
+#EXTMYTP:st_mac=00:1A:79:C3:9F:0E
+http://iptv.darktv.in/c
