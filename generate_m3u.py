@@ -16,14 +16,17 @@ def create_m3u():
             line = line.strip()
             if '|' in line:
                 portal, mac = line.split('|')
-                # Sreduvanje na URL-to
-                base_url = portal.strip()
-                m3u_link = f"{base_url}?mac={mac.strip()}"
+                portal = portal.strip()
+                mac = mac.strip()
                 
-                # Ime na kanalot spored portalot
-                name = base_url.split("//")[-1].split("/")[0]
-                f.write(f'#EXTINF:-1, Portal: {name}\n')
-                f.write(f'{m3u_link}\n')
+                # Ime na portalot
+                name = portal.split("//")[-1].split("/")[0]
+                
+                # Specijalen format za OTT Navigator da prepoznae deka e Stalker MAC
+                f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="MAC Portali", {name} (MAC: {mac})\n')
+                f.write(f'#EXTMYTP:type=stalker\n')
+                f.write(f'#EXTMYTP:st_mac={mac}\n')
+                f.write(f'{portal}\n')
 
 if __name__ == "__main__":
     create_m3u()
