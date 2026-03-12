@@ -19,14 +19,19 @@ def create_m3u():
                 portal = portal.strip()
                 mac = mac.strip()
                 
-                # Ime na portalot
+                # Chistenje na URL-to (mora da zavrshuva na /c/ ili /)
+                if not portal.endswith('/'):
+                    portal += '/'
+                
+                # Ime na portalot za polesno naogjanje
                 name = portal.split("//")[-1].split("/")[0]
                 
-                # Specijalen format za OTT Navigator da prepoznae deka e Stalker MAC
-                f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="MAC Portali", {name} (MAC: {mac})\n')
-                f.write(f'#EXTMYTP:type=stalker\n')
-                f.write(f'#EXTMYTP:st_mac={mac}\n')
-                f.write(f'{portal}\n')
+                # FORMAT ZA OTT NAVIGATOR (STALKER URL)
+                # Ovoj format go primoruva playerot da otvori Stalker konekcija
+                stalker_url = f"stalker://{portal.replace('http://', '').replace('https://', '')}?mac={mac}"
+                
+                f.write(f'#EXTINF:-1, --- {name} ---\n')
+                f.write(f'{stalker_url}\n')
 
 if __name__ == "__main__":
     create_m3u()
